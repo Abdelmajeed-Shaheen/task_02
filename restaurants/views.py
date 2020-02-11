@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
-def x(request):
+def hello_world(request):
 	context ={
 		"msg": "Hello World!"
 	}
-	return render(request, "x.html", context)
+	return render(request, "helloworld.html", context)
